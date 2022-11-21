@@ -1,0 +1,34 @@
+.cabecera {
+   background-color: white;
+   padding: 10px; 
+}
+.contenido{
+    background-color: aliceblue;
+    padding: 50px;
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr 1fr ;
+} 
+.menu{
+    background-color: blue;
+    color: white;
+    padding: 50px;
+    grid-column: 1/2;
+    text-align: left;
+}   
+.contenido2{
+    padding: 50px;
+    grid-column: 2/5;
+}
+.lateral{
+    padding: 50px;
+}
+.pie{
+    background-color: white;
+    padding: 20px;
+}
+.inst{
+    background-color: aliceblue;
+    padding: 50px;
+    grid-column: 1/2;
+    text-align: left;
+}    
